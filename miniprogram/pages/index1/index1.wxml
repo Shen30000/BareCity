@@ -1,0 +1,15 @@
+<!--pages/index1/index1.wxml-->
+<van-nav-bar
+  title="选择停车位"
+  left-text="返回"
+  left-arrow
+  bind:click-left="onClickLeft"
+/>
+<van-cell title="单元格" is-link value="内容" />
+<van-cell title="单元格" is-link value="内容" />
+<van-cell title="单元格" is-link value="内容" />
+<van-cell title="单元格" is-link value="内容" />
+<van-cell title="单元格" is-link value="内容" />
+<van-cell title="单元格" is-link value="内容" />
+<van-cell title="单元格" is-link value="内容" />
+<van-cell title="单元格" is-link value="内容" />

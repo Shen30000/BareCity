@@ -1,0 +1,10 @@
+<!--pages/database1/datebase1.wxml-->
+<!--绑定点击事件-->
+<!--地图容器-->
+<map id="myMap"
+   markers="{{markers}}"
+   style="width:100%;height:300px;"
+   longitude="{{mylongitude}}"
+   latitude="{{mylatitude}}" scale='16'>
+</map>
+<van-button type="default" bind:click="onUploadPic">查看车位列表</van-button>

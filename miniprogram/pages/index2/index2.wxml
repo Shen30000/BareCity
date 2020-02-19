@@ -1,0 +1,32 @@
+<van-nav-bar
+  title="标题"
+  left-text="返回"
+  left-arrow
+  bind:click-left="onClickLeft"
+  bind:click-right="onClickRight"
+/>
+<van-card
+  num="numleft"
+  desc="描述信息"
+  title="停车场名称"
+/>
+<van-card
+  num="numleft"
+  desc="描述信息"
+  title="停车场名称"
+/>
+<van-card
+  num="numleft"
+  desc="描述信息"
+  title="停车场名称"
+/>
+<van-card
+  num="numleft"
+  desc="描述信息"
+  title="停车场名称"
+/>
+<van-card
+  num="numleft"
+  desc="描述信息"
+  title="停车场名称"
+/>

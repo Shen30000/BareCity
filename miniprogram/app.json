@@ -1,6 +1,10 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/database1/database1",
+    "pages/index1/index1",
+    "pages/index2/index2",
+    "pages/index3/index3",
+    "pages/index4/index4"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -8,5 +12,23 @@
     "navigationBarBackgroundColor": "#F6F6F6",
     "navigationBarTitleText": "BareCity",
     "navigationBarTextStyle": "black"
-  }
+  },
+  "usingComponents": {
+    "van-button": "C:/Users/Shen30000/Desktop/BareCity/miniprogram/dist/button/index",
+    "van-search": "C:/Users/Shen30000/Desktop/BareCity/miniprogram/dist/search/index",
+    "van-nav-bar": "C:/Users/Shen30000/Desktop/BareCity/miniprogram/dist/nav-bar/index",
+    "van-row": "C:/Users/Shen30000/Desktop/BareCity/miniprogram/dist/row/index",
+    "van-col": "C:/Users/Shen30000/Desktop/BareCity/miniprogram/dist/col/index",
+    "van-cell": "C:/Users/Shen30000/Desktop/BareCity/miniprogram/dist/cell/index",
+    "van-cell-group": "C:/Users/Shen30000/Desktop/BareCity/miniprogram/dist/cell-group/index",
+    "van-field": "C:/Users/Shen30000/Desktop/BareCity/miniprogram/dist/field/index",
+    "van-card": "C:/Users/Shen30000/Desktop/BareCity/miniprogram/dist/card/index"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "sitemapLocation": "sitemap.json",
+  "style":"v2"
 }

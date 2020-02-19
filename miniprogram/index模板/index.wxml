@@ -1,0 +1,3 @@
+<van-search value="{{ value }}" placeholder="请输入目的地" />
+<van-button type="info">客服反馈</van-button>
+<van-button type="info">我有车位</van-button>

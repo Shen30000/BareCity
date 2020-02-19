@@ -1,0 +1,17 @@
+<!--pages/index3/index3.wxml-->
+<van-cell-group>
+  <van-field
+    value="{{ itemName }}"
+    label="停车场名称"
+    placeholder="请输入停车场描述"
+    bind:blur="onClickitemName"
+  />
+
+  <van-field
+    value="{{ itemDesc }}"
+    label="停车场描述"
+    placeholder="请输入停车场描述"
+    bind:blur="onClickitemDesc"
+  />
+  <van-button type="default" bind:click="onUploadPic">选择证明材料</van-button>
+</van-cell-group>

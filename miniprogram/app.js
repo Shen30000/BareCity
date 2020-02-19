@@ -1,4 +1,4 @@
-//app.js
+// 调用接口
 App({
   onLaunch: function () {
     
